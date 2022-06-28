@@ -1332,6 +1332,11 @@ THEME_DARK_AUTO "暗色模式（跟随系统）" <<<EOT
 		background-image: url("https://cdn.jsdelivr.net/gh/hakadao/bilibili-simple-home@master/img/onlineListBtn_22_hover.png");
 		transform: translatey(.5px)
 	}
+	/*临时隐藏了最近更新的夏日横幅*/
+	.summer-banner
+	{
+	display: none ;
+	}
 }
 
 @-moz-document regexp("^https?://www\\.bilibili\\.com/?((index\\.html)|(\\?.*))?") {
